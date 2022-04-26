@@ -31,6 +31,11 @@ img {
   height: auto;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -208,10 +213,7 @@ img {
 }
 
 /* Кнопки общие  */
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
+
 
 .button {
   color: var(--white-color);
