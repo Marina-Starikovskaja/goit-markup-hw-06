@@ -578,6 +578,7 @@ button {
 
 .container-logo {
   margin-right: 70px;
+  flex-grow: 1;
 }
 
 .actions-footer {
@@ -957,6 +958,7 @@ button {
   box-sizing: border-box;
   border-radius: 4px;
   resize: none;
+  height: 120px;
 
   transition-property: border;
   transition-duration: 250ms;
@@ -1001,12 +1003,17 @@ button {
 
 /* Кастомный чек бокс */
 
+.form-checkbox {    
+  margin-bottom: 30px;
+}
+
+
+
 .checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
